@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tool="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/splashFragment">
+    app:startDestination="@id/homeWorkoutFragment">
 
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.threeamigosworkingout.repsandsets.ui.splash.SplashFragment"
-        android:label="SplashFragment"
-        tool:layout="@layout/splash_fragment"/>
+        android:id="@+id/homeWorkoutFragment"
+        android:name="com.threeamigosworkingout.repsandsets.ui.home.HomeWorkoutFragment"
+        android:label="HomeWorkoutFragment"
+        tool:layout="@layout/workout_home_fragment"/>
 </navigation>

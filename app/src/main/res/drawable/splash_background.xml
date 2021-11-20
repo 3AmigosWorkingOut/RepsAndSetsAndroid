@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO This is a temp placeholder file-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque"
+   >
+
+    <!-- The background color, preferably the same as your normal theme -->
+    <item>
+        <shape>
+            <size android:height="120dp" android:width="120dp"/>
+            <solid android:color="@android:color/holo_purple"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic__workout_person"
+        android:gravity="center">
+
+    </item>
+</layer-list>

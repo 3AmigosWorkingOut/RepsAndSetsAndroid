@@ -1,4 +1,4 @@
-package com.threeamigosworkingout.repsandsets.ui.splash;
+package com.threeamigosworkingout.repsandsets.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,15 +7,16 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 import com.threeamigosworkingout.repsandsets.R;
+import com.threeamigosworkingout.repsandsets.ui.base.RepsAndSetsBaseFragment;
 
-public class SplashFragment extends Fragment {
+public class HomeWorkoutFragment extends RepsAndSetsBaseFragment {
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.splash_fragment, container, false);
+        View view = inflater.inflate(R.layout.workout_home_fragment, container, false);
         return view;
     }
 }

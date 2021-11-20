@@ -1,12 +1,12 @@
-package com.threeamigosworkingout.repsandsets.ui;
+package com.threeamigosworkingout.repsandsets.ui.home;
 
 import static com.threeamigosworkingout.repsandsets.R.layout.activity_main;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+import com.threeamigosworkingout.repsandsets.ui.base.RepsAndSetsBaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends RepsAndSetsBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
