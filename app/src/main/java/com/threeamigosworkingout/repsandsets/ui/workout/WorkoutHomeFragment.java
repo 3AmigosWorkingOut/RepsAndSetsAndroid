@@ -1,4 +1,4 @@
-package com.threeamigosworkingout.repsandsets.ui.home;
+package com.threeamigosworkingout.repsandsets.ui.workout;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import com.threeamigosworkingout.repsandsets.R;
 import com.threeamigosworkingout.repsandsets.ui.base.RepsAndSetsBaseFragment;
 
-public class HomeWorkoutFragment extends RepsAndSetsBaseFragment {
+public class WorkoutHomeFragment extends RepsAndSetsBaseFragment {
 
     @Nullable
     @Override

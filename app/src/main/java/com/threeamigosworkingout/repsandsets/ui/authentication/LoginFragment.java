@@ -13,7 +13,6 @@ import com.threeamigosworkingout.repsandsets.ui.base.RepsAndSetsBaseFragment;
 
 /**
  * Login the user
- * TODO - integrate firebase auth
  */
 public class LoginFragment extends RepsAndSetsBaseFragment {
     @Nullable

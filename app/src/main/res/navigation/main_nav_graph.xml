@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeWorkoutFragment"
-        android:name="com.threeamigosworkingout.repsandsets.ui.home.HomeWorkoutFragment"
+        android:name="com.threeamigosworkingout.repsandsets.ui.workout.WorkoutHomeFragment"
         android:label="HomeWorkoutFragment"
         tool:layout="@layout/workout_home_fragment"/>
 </navigation>
