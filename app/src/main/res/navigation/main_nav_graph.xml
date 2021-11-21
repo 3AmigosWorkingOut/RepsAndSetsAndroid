@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeWorkoutFragment">
+
+    <fragment
+        android:id="@+id/homeWorkoutFragment"
+        android:name="com.threeamigosworkingout.repsandsets.ui.workout.WorkoutHomeFragment"
+        android:label="HomeWorkoutFragment"
+        tool:layout="@layout/workout_home_fragment"/>
+</navigation>
