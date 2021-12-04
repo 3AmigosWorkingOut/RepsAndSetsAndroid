@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608186261288",
+    "project_id": "reps-and-sets",
+    "storage_bucket": "reps-and-sets.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608186261288:android:1e298046159a99e3b0fa1d",
+        "android_client_info": {
+          "package_name": "com.threeamigosworkingout.repsandsets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608186261288-178esti7ps0ga1l7mtv89nrknb4pj767.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDycZOYT6bSRE444JjZm0y4PyvKojR3OL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608186261288-178esti7ps0ga1l7mtv89nrknb4pj767.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import com.threeamigosworkingout.repsandsets.R;
 import com.threeamigosworkingout.repsandsets.ui.authentication.AuthActivity;
 import com.threeamigosworkingout.repsandsets.ui.base.RepsAndSetsBaseActivity;
+import com.threeamigosworkingout.repsandsets.ui.workout.WorkoutMainActivity;
 
 /**
  * The entry to the application. Has a specifically set splash theme.
@@ -53,6 +54,9 @@ public class SplashActivity extends RepsAndSetsBaseActivity {
 
     private void navigateToMain() {
         // TODO start the main activity
+        Intent intent = new Intent(this, WorkoutMainActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     private boolean hasSavedUser() {
