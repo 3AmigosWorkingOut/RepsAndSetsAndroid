@@ -15,5 +15,11 @@
     </style>
     <style name="Theme.RepsAndSets.Splash" parent="Theme.RepsAndSets">
     <!-- TODO create a splash theme -->
+
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
     </style>
 </resources>
